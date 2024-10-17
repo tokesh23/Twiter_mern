@@ -1,0 +1,11 @@
+#curser{
+    cursor: pointer;
+}
+#msg{
+    display: flex;
+    gap: 5px;
+}
+ .msg,#ima{
+    border-radius: 30px;
+    width: 25px;
+ }

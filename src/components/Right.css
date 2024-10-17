@@ -1,0 +1,26 @@
+#ipt{
+    width: 350px;
+    border-radius: 20px;
+    padding-left: 50px;
+    border: none;
+}
+#searche{
+    font-size: 1.80em;
+    position: relative;
+    left: 40px;
+}
+#content{
+    padding-left: 20px;
+}
+#sub{
+    border-radius: 15px;
+    background: black;
+    width: 120px;
+}
+.what{
+    display: flex;
+     
+}
+#happ{
+    margin-left: 130px;
+}

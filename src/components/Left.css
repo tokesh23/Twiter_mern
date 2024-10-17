@@ -7,3 +7,13 @@
     border-radius: 20px;
     width: 160px;
 }
+ 
+  
+  
+  
+  .sidebar-closed {
+    transform: translateX(-100%); /* Hide when closed */
+  }
+  
+   
+  
