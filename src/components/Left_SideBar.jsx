@@ -14,11 +14,11 @@ import { CiCircleMore } from 'react-icons/ci';
 import { IoReorderThree } from "react-icons/io5";
 
 const Left_SideBar = () => {
-  const [isOpen, setIsOpen] = useState(false); // Initialize sidebar state
+  // const [isOpen, setIsOpen] = useState(false); // Initialize sidebar state
 
-  const sidebarToggle = () => {
-    setIsOpen((prev) => !prev); // Toggle sidebar open/close
-  };
+  // const sidebarToggle = () => {
+  //   setIsOpen((prev) => !prev); // Toggle sidebar open/close
+  // };
 
   return (
     <div>
@@ -27,12 +27,12 @@ const Left_SideBar = () => {
          
           
           
-          <div onClick={sidebarToggle} className="toggle-btn">
+          {/* <div onClick={sidebarToggle} className="toggle-btn"> */}
           <img src={twitter} alt="Twitter Logo" width={"15%"} />
-          </div>
+          {/* </div> */}
 
           {/* Sidebar content */}
-          <div className={`sidebar ${isOpen ? 'sidebar-open' : 'sidebar-closed'}`}>
+          <div className="">
             <div className="mt-3" id="gap">
               <FaHome />
               <b>Home</b>
