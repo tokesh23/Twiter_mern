@@ -4,10 +4,10 @@ import './Login.css';
 import twiter from "../../assets/twitter-new-2023-x-logo-white-background-vector_1017-45422.avif";
 
 const Login = () => {
-  const navigate = useNavigate(); // Hook for navigation
+  const navigate = useNavigate();  
 
   const handleRegisterClick = () => {
-    navigate('/register'); // Navigate to registration page
+    navigate('/');  
   };
 
   return (
@@ -40,3 +40,4 @@ const Login = () => {
 };
 
 export default Login;
+ 
